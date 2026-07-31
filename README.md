@@ -1,1 +1,2359 @@
-# Raj_enterprises
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RAJ Enterprises | Invigilation Vendors & Examination Coordination</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#f4f7fb;
+    color:#333;
+    line-height:1.6;
+}
+
+header{
+    background:#003366;
+    color:#fff;
+    padding:18px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+.logo{
+    font-size:30px;
+    font-weight:bold;
+}
+
+nav a{
+    color:#fff;
+    text-decoration:none;
+    margin-left:25px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#ffcc33;
+}
+
+.hero{
+    background:linear-gradient(rgba(0,51,102,.82),rgba(0,51,102,.82)),
+    url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1600&q=80');
+    background-size:cover;
+    background-position:center;
+    color:white;
+    text-align:center;
+    padding:120px 20px;
+}
+
+.hero h1{
+    font-size:55px;
+    margin-bottom:15px;
+}
+
+.hero h3{
+    font-weight:normal;
+    margin-bottom:20px;
+}
+
+.hero p{
+    max-width:850px;
+    margin:auto;
+    font-size:20px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:35px;
+    background:#ff9800;
+    color:#fff;
+    padding:15px 35px;
+    border-radius:5px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#e68900;
+}
+
+section{
+    padding:80px 8%;
+}
+
+.title{
+    text-align:center;
+    color:#003366;
+    font-size:36px;
+    margin-bottom:40px;
+}
+
+.about{
+    max-width:900px;
+    margin:auto;
+    text-align:center;
+    font-size:18px;
+}
+
+.services{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#fff;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 5px 20px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h3{
+    color:#003366;
+    margin-bottom:15px;
+}
+
+.why{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.box{
+    background:white;
+    border-left:5px solid #003366;
+    padding:25px;
+    box-shadow:0 4px 15px rgba(0,0,0,.08);
+}
+
+.contact{
+    background:#003366;
+    color:white;
+    border-radius:10px;
+    text-align:center;
+    padding:60px 30px;
+}
+
+.contact h2{
+    margin-bottom:20px;
+}
+
+.contact a{
+    color:#ffd54f;
+    text-decoration:none;
+    font-size:20px;
+}
+
+footer{
+    background:#001d3d;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+@media(max-width:768px){
+
+header{
+flex-direction:column;
+}
+
+nav{
+margin-top:15px;
+}
+
+nav a{
+display:inline-block;
+margin:8px;
+}
+
+.hero h1{
+font-size:40px;
+}
+
+.hero p{
+font-size:17px;
+}
+
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+RAJ Enterprises
+</div>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#why">Why Us</a>
+<a href="#contact">Contact</a>
+</nav>
+
+</header>
+
+<section class="hero" id="home">
+
+<h1>RAJ Enterprises</h1>
+
+<h3>Professional Invigilation Vendors & Examination Coordination</h3>
+
+<p>
+Providing reliable invigilation manpower and complete examination coordination
+services for schools, colleges, universities, testing agencies, and corporate
+organizations across India.
+</p>
+
+<a href="#contact" class="btn">Get in Touch</a>
+
+</section>
+
+<section id="about">
+
+<h2 class="title">About Us</h2>
+
+<div class="about">
+
+<p>
+
+<strong>RAJ Enterprises</strong> is a trusted organization providing professional
+invigilation vendors and examination coordination services. We specialize in
+supplying trained invigilators, coordinating examination activities, managing
+vendors, and ensuring smooth execution of examinations while maintaining the
+highest standards of confidentiality, discipline, and professionalism.
+
+</p>
+
+</div>
+
+</section>
+
+<section id="services">
+
+<h2 class="title">Our Services</h2>
+
+<div class="services">
+
+<div class="card">
+<h3>👨‍🏫 Invigilator Supply</h3>
+<p>
+Experienced and trained invigilators for educational institutions,
+government examinations, recruitment tests, and private organizations.
+</p>
+</div>
+
+<div class="card">
+<h3>📅 Examination Coordination</h3>
+<p>
+Complete planning, scheduling, coordination, supervision, and execution
+of examination activities.
+</p>
+</div>
+
+<div class="card">
+<h3>🤝 Vendor Management</h3>
+<p>
+Professional manpower deployment, attendance tracking,
+resource allocation, and vendor coordination.
+</p>
+</div>
+
+<div class="card">
+<h3>📋 Reporting & Documentation</h3>
+<p>
+Daily reports, attendance records,
+incident reports, documentation,
+and operational support.
+</p>
+</div>
+
+<div class="card">
+<h3>🏫 Institutional Support</h3>
+<p>
+Support services for universities,
+schools, colleges,
+training institutes,
+and examination centers.
+</p>
+</div>
+
+<div class="card">
+<h3>✅ Quality Assurance</h3>
+<p>
+Ensuring disciplined manpower,
+timely reporting,
+professional conduct,
+and smooth examination processes.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="why">
+
+<h2 class="title">Why Choose RAJ Enterprises?</h2>
+
+<div class="why">
+
+<div class="box">
+<h3>Experienced Team</h3>
+<p>Qualified professionals with years of examination management experience.</p>
+</div>
+
+<div class="box">
+<h3>Reliable Service</h3>
+<p>Timely manpower deployment with professional support.</p>
+</div>
+
+<div class="box">
+<h3>Professional Coordination</h3>
+<p>Efficient communication and seamless examination execution.</p>
+</div>
+
+<div class="box">
+<h3>Client Satisfaction</h3>
+<p>Committed to delivering dependable and high-quality services.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<div class="contact">
+
+<h2>Contact Us</h2>
+
+<p>
+Need trusted invigilation vendors or examination coordination services?
+We are here to help.
+</p>
+
+<br>
+
+<h3>Email</h3>
+
+<p>
+
+<a href="mailto:madhu4ba2la@gmail.com">
+madhu4ba2la@gmail.com
+</a>
+
+</p>
+
+<br>
+
+<a class="btn" href="mailto:madhu4ba2la@gmail.com">
+Send Email
+</a>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>
+© 2026 <strong>RAJ Enterprises</strong>. All Rights Reserved.
+</p>
+
+<p>
+Reliable Invigilation • Professional Coordination • Trusted Examination Support
+</p>
+
+</footer>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RAJ Enterprises | Invigilation Vendors & Examination Coordination</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#f4f7fb;
+    color:#333;
+    line-height:1.6;
+}
+
+header{
+    background:#003366;
+    color:#fff;
+    padding:18px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+.logo{
+    font-size:30px;
+    font-weight:bold;
+}
+
+nav a{
+    color:#fff;
+    text-decoration:none;
+    margin-left:25px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#ffcc33;
+}
+
+.hero{
+    background:linear-gradient(rgba(0,51,102,.82),rgba(0,51,102,.82)),
+    url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1600&q=80');
+    background-size:cover;
+    background-position:center;
+    color:white;
+    text-align:center;
+    padding:120px 20px;
+}
+
+.hero h1{
+    font-size:55px;
+    margin-bottom:15px;
+}
+
+.hero h3{
+    font-weight:normal;
+    margin-bottom:20px;
+}
+
+.hero p{
+    max-width:850px;
+    margin:auto;
+    font-size:20px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:35px;
+    background:#ff9800;
+    color:#fff;
+    padding:15px 35px;
+    border-radius:5px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#e68900;
+}
+
+section{
+    padding:80px 8%;
+}
+
+.title{
+    text-align:center;
+    color:#003366;
+    font-size:36px;
+    margin-bottom:40px;
+}
+
+.about{
+    max-width:900px;
+    margin:auto;
+    text-align:center;
+    font-size:18px;
+}
+
+.services{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#fff;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 5px 20px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h3{
+    color:#003366;
+    margin-bottom:15px;
+}
+
+.why{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.box{
+    background:white;
+    border-left:5px solid #003366;
+    padding:25px;
+    box-shadow:0 4px 15px rgba(0,0,0,.08);
+}
+
+.contact{
+    background:#003366;
+    color:white;
+    border-radius:10px;
+    text-align:center;
+    padding:60px 30px;
+}
+
+.contact h2{
+    margin-bottom:20px;
+}
+
+.contact a{
+    color:#ffd54f;
+    text-decoration:none;
+    font-size:20px;
+}
+
+footer{
+    background:#001d3d;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+@media(max-width:768px){
+
+header{
+flex-direction:column;
+}
+
+nav{
+margin-top:15px;
+}
+
+nav a{
+display:inline-block;
+margin:8px;
+}
+
+.hero h1{
+font-size:40px;
+}
+
+.hero p{
+font-size:17px;
+}
+
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+RAJ Enterprises
+</div>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#why">Why Us</a>
+<a href="#contact">Contact</a>
+</nav>
+
+</header>
+
+<section class="hero" id="home">
+
+<h1>RAJ Enterprises</h1>
+
+<h3>Professional Invigilation Vendors & Examination Coordination</h3>
+
+<p>
+Providing reliable invigilation manpower and complete examination coordination
+services for schools, colleges, universities, testing agencies, and corporate
+organizations across India.
+</p>
+
+<a href="#contact" class="btn">Get in Touch</a>
+
+</section>
+
+<section id="about">
+
+<h2 class="title">About Us</h2>
+
+<div class="about">
+
+<p>
+
+<strong>RAJ Enterprises</strong> is a trusted organization providing professional
+invigilation vendors and examination coordination services. We specialize in
+supplying trained invigilators, coordinating examination activities, managing
+vendors, and ensuring smooth execution of examinations while maintaining the
+highest standards of confidentiality, discipline, and professionalism.
+
+</p>
+
+</div>
+
+</section>
+
+<section id="services">
+
+<h2 class="title">Our Services</h2>
+
+<div class="services">
+
+<div class="card">
+<h3>👨‍🏫 Invigilator Supply</h3>
+<p>
+Experienced and trained invigilators for educational institutions,
+government examinations, recruitment tests, and private organizations.
+</p>
+</div>
+
+<div class="card">
+<h3>📅 Examination Coordination</h3>
+<p>
+Complete planning, scheduling, coordination, supervision, and execution
+of examination activities.
+</p>
+</div>
+
+<div class="card">
+<h3>🤝 Vendor Management</h3>
+<p>
+Professional manpower deployment, attendance tracking,
+resource allocation, and vendor coordination.
+</p>
+</div>
+
+<div class="card">
+<h3>📋 Reporting & Documentation</h3>
+<p>
+Daily reports, attendance records,
+incident reports, documentation,
+and operational support.
+</p>
+</div>
+
+<div class="card">
+<h3>🏫 Institutional Support</h3>
+<p>
+Support services for universities,
+schools, colleges,
+training institutes,
+and examination centers.
+</p>
+</div>
+
+<div class="card">
+<h3>✅ Quality Assurance</h3>
+<p>
+Ensuring disciplined manpower,
+timely reporting,
+professional conduct,
+and smooth examination processes.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="why">
+
+<h2 class="title">Why Choose RAJ Enterprises?</h2>
+
+<div class="why">
+
+<div class="box">
+<h3>Experienced Team</h3>
+<p>Qualified professionals with years of examination management experience.</p>
+</div>
+
+<div class="box">
+<h3>Reliable Service</h3>
+<p>Timely manpower deployment with professional support.</p>
+</div>
+
+<div class="box">
+<h3>Professional Coordination</h3>
+<p>Efficient communication and seamless examination execution.</p>
+</div>
+
+<div class="box">
+<h3>Client Satisfaction</h3>
+<p>Committed to delivering dependable and high-quality services.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<div class="contact">
+
+<h2>Contact Us</h2>
+
+<p>
+Need trusted invigilation vendors or examination coordination services?
+We are here to help.
+</p>
+
+<br>
+
+<h3>Email</h3>
+
+<p>
+
+<a href="mailto:madhu4ba2la@gmail.com">
+madhu4ba2la@gmail.com
+</a>
+
+</p>
+
+<br>
+
+<a class="btn" href="mailto:madhu4ba2la@gmail.com">
+Send Email
+</a>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>
+© 2026 <strong>RAJ Enterprises</strong>. All Rights Reserved.
+</p>
+
+<p>
+Reliable Invigilation • Professional Coordination • Trusted Examination Support
+</p>
+
+</footer>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RAJ Enterprises | Invigilation Vendors & Examination Coordination</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#f4f7fb;
+    color:#333;
+    line-height:1.6;
+}
+
+header{
+    background:#003366;
+    color:#fff;
+    padding:18px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+.logo{
+    font-size:30px;
+    font-weight:bold;
+}
+
+nav a{
+    color:#fff;
+    text-decoration:none;
+    margin-left:25px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#ffcc33;
+}
+
+.hero{
+    background:linear-gradient(rgba(0,51,102,.82),rgba(0,51,102,.82)),
+    url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1600&q=80');
+    background-size:cover;
+    background-position:center;
+    color:white;
+    text-align:center;
+    padding:120px 20px;
+}
+
+.hero h1{
+    font-size:55px;
+    margin-bottom:15px;
+}
+
+.hero h3{
+    font-weight:normal;
+    margin-bottom:20px;
+}
+
+.hero p{
+    max-width:850px;
+    margin:auto;
+    font-size:20px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:35px;
+    background:#ff9800;
+    color:#fff;
+    padding:15px 35px;
+    border-radius:5px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#e68900;
+}
+
+section{
+    padding:80px 8%;
+}
+
+.title{
+    text-align:center;
+    color:#003366;
+    font-size:36px;
+    margin-bottom:40px;
+}
+
+.about{
+    max-width:900px;
+    margin:auto;
+    text-align:center;
+    font-size:18px;
+}
+
+.services{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#fff;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 5px 20px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h3{
+    color:#003366;
+    margin-bottom:15px;
+}
+
+.why{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.box{
+    background:white;
+    border-left:5px solid #003366;
+    padding:25px;
+    box-shadow:0 4px 15px rgba(0,0,0,.08);
+}
+
+.contact{
+    background:#003366;
+    color:white;
+    border-radius:10px;
+    text-align:center;
+    padding:60px 30px;
+}
+
+.contact h2{
+    margin-bottom:20px;
+}
+
+.contact a{
+    color:#ffd54f;
+    text-decoration:none;
+    font-size:20px;
+}
+
+footer{
+    background:#001d3d;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+@media(max-width:768px){
+
+header{
+flex-direction:column;
+}
+
+nav{
+margin-top:15px;
+}
+
+nav a{
+display:inline-block;
+margin:8px;
+}
+
+.hero h1{
+font-size:40px;
+}
+
+.hero p{
+font-size:17px;
+}
+
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+RAJ Enterprises
+</div>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#why">Why Us</a>
+<a href="#contact">Contact</a>
+</nav>
+
+</header>
+
+<section class="hero" id="home">
+
+<h1>RAJ Enterprises</h1>
+
+<h3>Professional Invigilation Vendors & Examination Coordination</h3>
+
+<p>
+Providing reliable invigilation manpower and complete examination coordination
+services for schools, colleges, universities, testing agencies, and corporate
+organizations across India.
+</p>
+
+<a href="#contact" class="btn">Get in Touch</a>
+
+</section>
+
+<section id="about">
+
+<h2 class="title">About Us</h2>
+
+<div class="about">
+
+<p>
+
+<strong>RAJ Enterprises</strong> is a trusted organization providing professional
+invigilation vendors and examination coordination services. We specialize in
+supplying trained invigilators, coordinating examination activities, managing
+vendors, and ensuring smooth execution of examinations while maintaining the
+highest standards of confidentiality, discipline, and professionalism.
+
+</p>
+
+</div>
+
+</section>
+
+<section id="services">
+
+<h2 class="title">Our Services</h2>
+
+<div class="services">
+
+<div class="card">
+<h3>👨‍🏫 Invigilator Supply</h3>
+<p>
+Experienced and trained invigilators for educational institutions,
+government examinations, recruitment tests, and private organizations.
+</p>
+</div>
+
+<div class="card">
+<h3>📅 Examination Coordination</h3>
+<p>
+Complete planning, scheduling, coordination, supervision, and execution
+of examination activities.
+</p>
+</div>
+
+<div class="card">
+<h3>🤝 Vendor Management</h3>
+<p>
+Professional manpower deployment, attendance tracking,
+resource allocation, and vendor coordination.
+</p>
+</div>
+
+<div class="card">
+<h3>📋 Reporting & Documentation</h3>
+<p>
+Daily reports, attendance records,
+incident reports, documentation,
+and operational support.
+</p>
+</div>
+
+<div class="card">
+<h3>🏫 Institutional Support</h3>
+<p>
+Support services for universities,
+schools, colleges,
+training institutes,
+and examination centers.
+</p>
+</div>
+
+<div class="card">
+<h3>✅ Quality Assurance</h3>
+<p>
+Ensuring disciplined manpower,
+timely reporting,
+professional conduct,
+and smooth examination processes.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="why">
+
+<h2 class="title">Why Choose RAJ Enterprises?</h2>
+
+<div class="why">
+
+<div class="box">
+<h3>Experienced Team</h3>
+<p>Qualified professionals with years of examination management experience.</p>
+</div>
+
+<div class="box">
+<h3>Reliable Service</h3>
+<p>Timely manpower deployment with professional support.</p>
+</div>
+
+<div class="box">
+<h3>Professional Coordination</h3>
+<p>Efficient communication and seamless examination execution.</p>
+</div>
+
+<div class="box">
+<h3>Client Satisfaction</h3>
+<p>Committed to delivering dependable and high-quality services.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<div class="contact">
+
+<h2>Contact Us</h2>
+
+<p>
+Need trusted invigilation vendors or examination coordination services?
+We are here to help.
+</p>
+
+<br>
+
+<h3>Email</h3>
+
+<p>
+
+<a href="mailto:madhu4ba2la@gmail.com">
+madhu4ba2la@gmail.com
+</a>
+
+</p>
+
+<br>
+
+<a class="btn" href="mailto:madhu4ba2la@gmail.com">
+Send Email
+</a>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>
+© 2026 <strong>RAJ Enterprises</strong>. All Rights Reserved.
+</p>
+
+<p>
+Reliable Invigilation • Professional Coordination • Trusted Examination Support
+</p>
+
+</footer>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RAJ Enterprises | Invigilation Vendors & Examination Coordination</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#f4f7fb;
+    color:#333;
+    line-height:1.6;
+}
+
+header{
+    background:#003366;
+    color:#fff;
+    padding:18px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+.logo{
+    font-size:30px;
+    font-weight:bold;
+}
+
+nav a{
+    color:#fff;
+    text-decoration:none;
+    margin-left:25px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#ffcc33;
+}
+
+.hero{
+    background:linear-gradient(rgba(0,51,102,.82),rgba(0,51,102,.82)),
+    url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1600&q=80');
+    background-size:cover;
+    background-position:center;
+    color:white;
+    text-align:center;
+    padding:120px 20px;
+}
+
+.hero h1{
+    font-size:55px;
+    margin-bottom:15px;
+}
+
+.hero h3{
+    font-weight:normal;
+    margin-bottom:20px;
+}
+
+.hero p{
+    max-width:850px;
+    margin:auto;
+    font-size:20px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:35px;
+    background:#ff9800;
+    color:#fff;
+    padding:15px 35px;
+    border-radius:5px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#e68900;
+}
+
+section{
+    padding:80px 8%;
+}
+
+.title{
+    text-align:center;
+    color:#003366;
+    font-size:36px;
+    margin-bottom:40px;
+}
+
+.about{
+    max-width:900px;
+    margin:auto;
+    text-align:center;
+    font-size:18px;
+}
+
+.services{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#fff;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 5px 20px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h3{
+    color:#003366;
+    margin-bottom:15px;
+}
+
+.why{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.box{
+    background:white;
+    border-left:5px solid #003366;
+    padding:25px;
+    box-shadow:0 4px 15px rgba(0,0,0,.08);
+}
+
+.contact{
+    background:#003366;
+    color:white;
+    border-radius:10px;
+    text-align:center;
+    padding:60px 30px;
+}
+
+.contact h2{
+    margin-bottom:20px;
+}
+
+.contact a{
+    color:#ffd54f;
+    text-decoration:none;
+    font-size:20px;
+}
+
+footer{
+    background:#001d3d;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+@media(max-width:768px){
+
+header{
+flex-direction:column;
+}
+
+nav{
+margin-top:15px;
+}
+
+nav a{
+display:inline-block;
+margin:8px;
+}
+
+.hero h1{
+font-size:40px;
+}
+
+.hero p{
+font-size:17px;
+}
+
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+RAJ Enterprises
+</div>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#why">Why Us</a>
+<a href="#contact">Contact</a>
+</nav>
+
+</header>
+
+<section class="hero" id="home">
+
+<h1>RAJ Enterprises</h1>
+
+<h3>Professional Invigilation Vendors & Examination Coordination</h3>
+
+<p>
+Providing reliable invigilation manpower and complete examination coordination
+services for schools, colleges, universities, testing agencies, and corporate
+organizations across India.
+</p>
+
+<a href="#contact" class="btn">Get in Touch</a>
+
+</section>
+
+<section id="about">
+
+<h2 class="title">About Us</h2>
+
+<div class="about">
+
+<p>
+
+<strong>RAJ Enterprises</strong> is a trusted organization providing professional
+invigilation vendors and examination coordination services. We specialize in
+supplying trained invigilators, coordinating examination activities, managing
+vendors, and ensuring smooth execution of examinations while maintaining the
+highest standards of confidentiality, discipline, and professionalism.
+
+</p>
+
+</div>
+
+</section>
+
+<section id="services">
+
+<h2 class="title">Our Services</h2>
+
+<div class="services">
+
+<div class="card">
+<h3>👨‍🏫 Invigilator Supply</h3>
+<p>
+Experienced and trained invigilators for educational institutions,
+government examinations, recruitment tests, and private organizations.
+</p>
+</div>
+
+<div class="card">
+<h3>📅 Examination Coordination</h3>
+<p>
+Complete planning, scheduling, coordination, supervision, and execution
+of examination activities.
+</p>
+</div>
+
+<div class="card">
+<h3>🤝 Vendor Management</h3>
+<p>
+Professional manpower deployment, attendance tracking,
+resource allocation, and vendor coordination.
+</p>
+</div>
+
+<div class="card">
+<h3>📋 Reporting & Documentation</h3>
+<p>
+Daily reports, attendance records,
+incident reports, documentation,
+and operational support.
+</p>
+</div>
+
+<div class="card">
+<h3>🏫 Institutional Support</h3>
+<p>
+Support services for universities,
+schools, colleges,
+training institutes,
+and examination centers.
+</p>
+</div>
+
+<div class="card">
+<h3>✅ Quality Assurance</h3>
+<p>
+Ensuring disciplined manpower,
+timely reporting,
+professional conduct,
+and smooth examination processes.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="why">
+
+<h2 class="title">Why Choose RAJ Enterprises?</h2>
+
+<div class="why">
+
+<div class="box">
+<h3>Experienced Team</h3>
+<p>Qualified professionals with years of examination management experience.</p>
+</div>
+
+<div class="box">
+<h3>Reliable Service</h3>
+<p>Timely manpower deployment with professional support.</p>
+</div>
+
+<div class="box">
+<h3>Professional Coordination</h3>
+<p>Efficient communication and seamless examination execution.</p>
+</div>
+
+<div class="box">
+<h3>Client Satisfaction</h3>
+<p>Committed to delivering dependable and high-quality services.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<div class="contact">
+
+<h2>Contact Us</h2>
+
+<p>
+Need trusted invigilation vendors or examination coordination services?
+We are here to help.
+</p>
+
+<br>
+
+<h3>Email</h3>
+
+<p>
+
+<a href="mailto:madhu4ba2la@gmail.com">
+madhu4ba2la@gmail.com
+</a>
+
+</p>
+
+<br>
+
+<a class="btn" href="mailto:madhu4ba2la@gmail.com">
+Send Email
+</a>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>
+© 2026 <strong>RAJ Enterprises</strong>. All Rights Reserved.
+</p>
+
+<p>
+Reliable Invigilation • Professional Coordination • Trusted Examination Support
+</p>
+
+</footer>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RAJ Enterprises | Invigilation Vendors & Examination Coordination</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#f4f7fb;
+    color:#333;
+    line-height:1.6;
+}
+
+header{
+    background:#003366;
+    color:#fff;
+    padding:18px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+.logo{
+    font-size:30px;
+    font-weight:bold;
+}
+
+nav a{
+    color:#fff;
+    text-decoration:none;
+    margin-left:25px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#ffcc33;
+}
+
+.hero{
+    background:linear-gradient(rgba(0,51,102,.82),rgba(0,51,102,.82)),
+    url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1600&q=80');
+    background-size:cover;
+    background-position:center;
+    color:white;
+    text-align:center;
+    padding:120px 20px;
+}
+
+.hero h1{
+    font-size:55px;
+    margin-bottom:15px;
+}
+
+.hero h3{
+    font-weight:normal;
+    margin-bottom:20px;
+}
+
+.hero p{
+    max-width:850px;
+    margin:auto;
+    font-size:20px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:35px;
+    background:#ff9800;
+    color:#fff;
+    padding:15px 35px;
+    border-radius:5px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#e68900;
+}
+
+section{
+    padding:80px 8%;
+}
+
+.title{
+    text-align:center;
+    color:#003366;
+    font-size:36px;
+    margin-bottom:40px;
+}
+
+.about{
+    max-width:900px;
+    margin:auto;
+    text-align:center;
+    font-size:18px;
+}
+
+.services{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#fff;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 5px 20px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h3{
+    color:#003366;
+    margin-bottom:15px;
+}
+
+.why{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.box{
+    background:white;
+    border-left:5px solid #003366;
+    padding:25px;
+    box-shadow:0 4px 15px rgba(0,0,0,.08);
+}
+
+.contact{
+    background:#003366;
+    color:white;
+    border-radius:10px;
+    text-align:center;
+    padding:60px 30px;
+}
+
+.contact h2{
+    margin-bottom:20px;
+}
+
+.contact a{
+    color:#ffd54f;
+    text-decoration:none;
+    font-size:20px;
+}
+
+footer{
+    background:#001d3d;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+@media(max-width:768px){
+
+header{
+flex-direction:column;
+}
+
+nav{
+margin-top:15px;
+}
+
+nav a{
+display:inline-block;
+margin:8px;
+}
+
+.hero h1{
+font-size:40px;
+}
+
+.hero p{
+font-size:17px;
+}
+
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+RAJ Enterprises
+</div>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#why">Why Us</a>
+<a href="#contact">Contact</a>
+</nav>
+
+</header>
+
+<section class="hero" id="home">
+
+<h1>RAJ Enterprises</h1>
+
+<h3>Professional Invigilation Vendors & Examination Coordination</h3>
+
+<p>
+Providing reliable invigilation manpower and complete examination coordination
+services for schools, colleges, universities, testing agencies, and corporate
+organizations across India.
+</p>
+
+<a href="#contact" class="btn">Get in Touch</a>
+
+</section>
+
+<section id="about">
+
+<h2 class="title">About Us</h2>
+
+<div class="about">
+
+<p>
+
+<strong>RAJ Enterprises</strong> is a trusted organization providing professional
+invigilation vendors and examination coordination services. We specialize in
+supplying trained invigilators, coordinating examination activities, managing
+vendors, and ensuring smooth execution of examinations while maintaining the
+highest standards of confidentiality, discipline, and professionalism.
+
+</p>
+
+</div>
+
+</section>
+
+<section id="services">
+
+<h2 class="title">Our Services</h2>
+
+<div class="services">
+
+<div class="card">
+<h3>👨‍🏫 Invigilator Supply</h3>
+<p>
+Experienced and trained invigilators for educational institutions,
+government examinations, recruitment tests, and private organizations.
+</p>
+</div>
+
+<div class="card">
+<h3>📅 Examination Coordination</h3>
+<p>
+Complete planning, scheduling, coordination, supervision, and execution
+of examination activities.
+</p>
+</div>
+
+<div class="card">
+<h3>🤝 Vendor Management</h3>
+<p>
+Professional manpower deployment, attendance tracking,
+resource allocation, and vendor coordination.
+</p>
+</div>
+
+<div class="card">
+<h3>📋 Reporting & Documentation</h3>
+<p>
+Daily reports, attendance records,
+incident reports, documentation,
+and operational support.
+</p>
+</div>
+
+<div class="card">
+<h3>🏫 Institutional Support</h3>
+<p>
+Support services for universities,
+schools, colleges,
+training institutes,
+and examination centers.
+</p>
+</div>
+
+<div class="card">
+<h3>✅ Quality Assurance</h3>
+<p>
+Ensuring disciplined manpower,
+timely reporting,
+professional conduct,
+and smooth examination processes.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="why">
+
+<h2 class="title">Why Choose RAJ Enterprises?</h2>
+
+<div class="why">
+
+<div class="box">
+<h3>Experienced Team</h3>
+<p>Qualified professionals with years of examination management experience.</p>
+</div>
+
+<div class="box">
+<h3>Reliable Service</h3>
+<p>Timely manpower deployment with professional support.</p>
+</div>
+
+<div class="box">
+<h3>Professional Coordination</h3>
+<p>Efficient communication and seamless examination execution.</p>
+</div>
+
+<div class="box">
+<h3>Client Satisfaction</h3>
+<p>Committed to delivering dependable and high-quality services.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<div class="contact">
+
+<h2>Contact Us</h2>
+
+<p>
+Need trusted invigilation vendors or examination coordination services?
+We are here to help.
+</p>
+
+<br>
+
+<h3>Email</h3>
+
+<p>
+
+<a href="mailto:madhu4ba2la@gmail.com">
+madhu4ba2la@gmail.com
+</a>
+
+</p>
+
+<br>
+
+<a class="btn" href="mailto:madhu4ba2la@gmail.com">
+Send Email
+</a>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>
+© 2026 <strong>RAJ Enterprises</strong>. All Rights Reserved.
+</p>
+
+<p>
+Reliable Invigilation • Professional Coordination • Trusted Examination Support
+</p>
+
+</footer>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RAJ Enterprises | Invigilation Vendors & Examination Coordination</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#f4f7fb;
+    color:#333;
+    line-height:1.6;
+}
+
+header{
+    background:#003366;
+    color:#fff;
+    padding:18px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+.logo{
+    font-size:30px;
+    font-weight:bold;
+}
+
+nav a{
+    color:#fff;
+    text-decoration:none;
+    margin-left:25px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#ffcc33;
+}
+
+.hero{
+    background:linear-gradient(rgba(0,51,102,.82),rgba(0,51,102,.82)),
+    url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1600&q=80');
+    background-size:cover;
+    background-position:center;
+    color:white;
+    text-align:center;
+    padding:120px 20px;
+}
+
+.hero h1{
+    font-size:55px;
+    margin-bottom:15px;
+}
+
+.hero h3{
+    font-weight:normal;
+    margin-bottom:20px;
+}
+
+.hero p{
+    max-width:850px;
+    margin:auto;
+    font-size:20px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:35px;
+    background:#ff9800;
+    color:#fff;
+    padding:15px 35px;
+    border-radius:5px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#e68900;
+}
+
+section{
+    padding:80px 8%;
+}
+
+.title{
+    text-align:center;
+    color:#003366;
+    font-size:36px;
+    margin-bottom:40px;
+}
+
+.about{
+    max-width:900px;
+    margin:auto;
+    text-align:center;
+    font-size:18px;
+}
+
+.services{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#fff;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 5px 20px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h3{
+    color:#003366;
+    margin-bottom:15px;
+}
+
+.why{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.box{
+    background:white;
+    border-left:5px solid #003366;
+    padding:25px;
+    box-shadow:0 4px 15px rgba(0,0,0,.08);
+}
+
+.contact{
+    background:#003366;
+    color:white;
+    border-radius:10px;
+    text-align:center;
+    padding:60px 30px;
+}
+
+.contact h2{
+    margin-bottom:20px;
+}
+
+.contact a{
+    color:#ffd54f;
+    text-decoration:none;
+    font-size:20px;
+}
+
+footer{
+    background:#001d3d;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+@media(max-width:768px){
+
+header{
+flex-direction:column;
+}
+
+nav{
+margin-top:15px;
+}
+
+nav a{
+display:inline-block;
+margin:8px;
+}
+
+.hero h1{
+font-size:40px;
+}
+
+.hero p{
+font-size:17px;
+}
+
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+RAJ Enterprises
+</div>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#why">Why Us</a>
+<a href="#contact">Contact</a>
+</nav>
+
+</header>
+
+<section class="hero" id="home">
+
+<h1>RAJ Enterprises</h1>
+
+<h3>Professional Invigilation Vendors & Examination Coordination</h3>
+
+<p>
+Providing reliable invigilation manpower and complete examination coordination
+services for schools, colleges, universities, testing agencies, and corporate
+organizations across India.
+</p>
+
+<a href="#contact" class="btn">Get in Touch</a>
+
+</section>
+
+<section id="about">
+
+<h2 class="title">About Us</h2>
+
+<div class="about">
+
+<p>
+
+<strong>RAJ Enterprises</strong> is a trusted organization providing professional
+invigilation vendors and examination coordination services. We specialize in
+supplying trained invigilators, coordinating examination activities, managing
+vendors, and ensuring smooth execution of examinations while maintaining the
+highest standards of confidentiality, discipline, and professionalism.
+
+</p>
+
+</div>
+
+</section>
+
+<section id="services">
+
+<h2 class="title">Our Services</h2>
+
+<div class="services">
+
+<div class="card">
+<h3>👨‍🏫 Invigilator Supply</h3>
+<p>
+Experienced and trained invigilators for educational institutions,
+government examinations, recruitment tests, and private organizations.
+</p>
+</div>
+
+<div class="card">
+<h3>📅 Examination Coordination</h3>
+<p>
+Complete planning, scheduling, coordination, supervision, and execution
+of examination activities.
+</p>
+</div>
+
+<div class="card">
+<h3>🤝 Vendor Management</h3>
+<p>
+Professional manpower deployment, attendance tracking,
+resource allocation, and vendor coordination.
+</p>
+</div>
+
+<div class="card">
+<h3>📋 Reporting & Documentation</h3>
+<p>
+Daily reports, attendance records,
+incident reports, documentation,
+and operational support.
+</p>
+</div>
+
+<div class="card">
+<h3>🏫 Institutional Support</h3>
+<p>
+Support services for universities,
+schools, colleges,
+training institutes,
+and examination centers.
+</p>
+</div>
+
+<div class="card">
+<h3>✅ Quality Assurance</h3>
+<p>
+Ensuring disciplined manpower,
+timely reporting,
+professional conduct,
+and smooth examination processes.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="why">
+
+<h2 class="title">Why Choose RAJ Enterprises?</h2>
+
+<div class="why">
+
+<div class="box">
+<h3>Experienced Team</h3>
+<p>Qualified professionals with years of examination management experience.</p>
+</div>
+
+<div class="box">
+<h3>Reliable Service</h3>
+<p>Timely manpower deployment with professional support.</p>
+</div>
+
+<div class="box">
+<h3>Professional Coordination</h3>
+<p>Efficient communication and seamless examination execution.</p>
+</div>
+
+<div class="box">
+<h3>Client Satisfaction</h3>
+<p>Committed to delivering dependable and high-quality services.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<div class="contact">
+
+<h2>Contact Us</h2>
+
+<p>
+Need trusted invigilation vendors or examination coordination services?
+We are here to help.
+</p>
+
+<br>
+
+<h3>Email</h3>
+
+<p>
+
+<a href="mailto:madhu4ba2la@gmail.com">
+madhu4ba2la@gmail.com
+</a>
+
+</p>
+
+<br>
+
+<a class="btn" href="mailto:madhu4ba2la@gmail.com">
+Send Email
+</a>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>
+© 2026 <strong>RAJ Enterprises</strong>. All Rights Reserved.
+</p>
+
+<p>
+Reliable Invigilation • Professional Coordination • Trusted Examination Support
+</p>
+
+</footer>
+
+</body>
+</html>
